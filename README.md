@@ -1,2 +1,2 @@
-# AI-Resume-Screening-System-with-RAG
-An AI-powered system that analyzes resumes against job descriptions using RAG (Retrieval-Augmented Generation), semantic search, and LLM-based reasoning to provide candidate ranking and hiring decisions.
+Developed an AI-based Resume Screening System using Python that analyzes and matches candidate resumes with job descriptions using semantic similarity. Implemented NLP techniques with Sentence Transformers to generate embeddings and applied cosine similarity for intelligent matching, replacing traditional keyword-based filtering. The system classifies candidates into strong, moderate, or weak matches based on contextual understanding.
+
