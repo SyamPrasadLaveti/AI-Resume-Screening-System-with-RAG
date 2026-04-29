@@ -1,18 +1,18 @@
-\## Phase 3: AI-Based Semantic Matching
+\## Phase 4: Chunk-Based Semantic Matching
 
 
 
-\- Used Sentence Transformers (all-MiniLM-L6-v2) to generate embeddings
+\- Split resume text into smaller chunks to avoid information dilution
 
-\- Converted resume and job description into high-dimensional vectors
+\- Compared each chunk with the job description using embeddings
 
-\- Applied cosine similarity to measure semantic similarity
+\- Selected the highest similarity score among all chunks
 
-\- Classified results into:
+\- Improved matching accuracy by focusing on relevant sections
 
-&#x20; - Strong Match
 
-&#x20; - Moderate Match
 
-&#x20; - Weak Match
+\### Key Improvement
+
+Instead of comparing the entire resume, chunking allows the model to focus on specific sections, reducing noise from irrelevant content and improving semantic matching.
 
