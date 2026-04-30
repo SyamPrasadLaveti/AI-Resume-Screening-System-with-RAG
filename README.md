@@ -1,18 +1,18 @@
-\## Phase 4: Chunk-Based Semantic Matching
+\## Phase 5: Resume Ranking System
 
 
 
-\- Split resume text into smaller chunks to avoid information dilution
+\- Processed multiple resumes from a folder
 
-\- Compared each chunk with the job description using embeddings
+\- Applied chunk-based semantic matching for each resume
 
-\- Selected the highest similarity score among all chunks
+\- Calculated best similarity score per resume
 
-\- Improved matching accuracy by focusing on relevant sections
+\- Ranked resumes based on similarity scores
 
 
 
 \### Key Improvement
 
-Instead of comparing the entire resume, chunking allows the model to focus on specific sections, reducing noise from irrelevant content and improving semantic matching.
+Enabled comparison and ranking of multiple candidates instead of evaluating a single resume.
 
